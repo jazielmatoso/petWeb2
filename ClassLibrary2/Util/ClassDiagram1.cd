@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Backend.Basicas.Usuario" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgA=</HashCode>
+      <FileName>Basicas\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Dados.UsuarioDaoImp" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAAAAAAAAAAAAAQAAAAAAAgQAAAAAAA=</HashCode>
+      <FileName>Dados\UsuarioDaoImp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.Erro.ConexaoException" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Erro\ConexaoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Erro.DaoException" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Erro\DaoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Erro.GeralException" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Erro\GeralException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Fachada" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAgAgAAAAAA=</HashCode>
+      <FileName>Fachada.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Negocio.UsuarioController">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIgABEAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Negocio\UsuarioController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Util.Conexao" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAABIAAAAEAQAARIACgAAAAAAAA=</HashCode>
+      <FileName>Util\Conexao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Backend.Dados.UsuarioDao">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAgQAAAAAAA=</HashCode>
+      <FileName>Dados\UsuarioDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

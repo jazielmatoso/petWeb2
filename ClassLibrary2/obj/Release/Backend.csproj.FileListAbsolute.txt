@@ -1,0 +1,10 @@
+C:\Users\Moises\Desktop\Eudes\petweb\ClassLibrary2\obj\Release\Backend.csprojResolveAssemblyReference.cache
+C:\Users\Moises\Desktop\Eudes\petweb\ClassLibrary2\bin\Release\Backend.dll
+C:\Users\Moises\Desktop\Eudes\petweb\ClassLibrary2\bin\Release\Backend.pdb
+C:\Users\Moises\Desktop\Eudes\petweb\ClassLibrary2\obj\Release\Backend.dll
+C:\Users\Moises\Desktop\Eudes\petweb\ClassLibrary2\obj\Release\Backend.pdb
+C:\projeto\petWeb\ClassLibrary2\bin\Release\Backend.dll
+C:\projeto\petWeb\ClassLibrary2\bin\Release\Backend.pdb
+C:\projeto\petWeb\ClassLibrary2\bin\Release\Newtonsoft.Json.dll
+C:\projeto\petWeb\ClassLibrary2\obj\Release\Backend.dll
+C:\projeto\petWeb\ClassLibrary2\obj\Release\Backend.pdb

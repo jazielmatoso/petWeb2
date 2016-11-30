@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:12786/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:12786/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:12786/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService1" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getVeterinario_InputMessage">
+    <wsdl:part name="parameters" element="tns:getVeterinario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getVeterinario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getVeterinarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_insertVacinacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:insertVacinacao" />
+  </wsdl:message>
+  <wsdl:message name="IService1_insertVacinacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insertVacinacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listVacinaForEspecie_InputMessage">
+    <wsdl:part name="parameters" element="tns:listVacinaForEspecie" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listVacinaForEspecie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:listVacinaForEspecieResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listMedida_InputMessage">
+    <wsdl:part name="parameters" element="tns:listMedida" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listMedida_OutputMessage">
+    <wsdl:part name="parameters" element="tns:listMedidaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listAnimal_InputMessage">
+    <wsdl:part name="parameters" element="tns:listAnimal" />
+  </wsdl:message>
+  <wsdl:message name="IService1_listAnimal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:listAnimalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getSequenciaDose_InputMessage">
+    <wsdl:part name="parameters" element="tns:getSequenciaDose" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getSequenciaDose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getSequenciaDoseResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getVeterinario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getVeterinario" message="tns:IService1_getVeterinario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getVeterinarioResponse" message="tns:IService1_getVeterinario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insertVacinacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/insertVacinacao" message="tns:IService1_insertVacinacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/insertVacinacaoResponse" message="tns:IService1_insertVacinacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="listVacinaForEspecie">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/listVacinaForEspecie" message="tns:IService1_listVacinaForEspecie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/listVacinaForEspecieResponse" message="tns:IService1_listVacinaForEspecie_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="listMedida">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/listMedida" message="tns:IService1_listMedida_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/listMedidaResponse" message="tns:IService1_listMedida_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="listAnimal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/listAnimal" message="tns:IService1_listAnimal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/listAnimalResponse" message="tns:IService1_listAnimal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getSequenciaDose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getSequenciaDose" message="tns:IService1_getSequenciaDose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getSequenciaDoseResponse" message="tns:IService1_getSequenciaDose_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVeterinario">
+      <soap:operation soapAction="http://tempuri.org/IService1/getVeterinario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertVacinacao">
+      <soap:operation soapAction="http://tempuri.org/IService1/insertVacinacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listVacinaForEspecie">
+      <soap:operation soapAction="http://tempuri.org/IService1/listVacinaForEspecie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listMedida">
+      <soap:operation soapAction="http://tempuri.org/IService1/listMedida" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listAnimal">
+      <soap:operation soapAction="http://tempuri.org/IService1/listAnimal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSequenciaDose">
+      <soap:operation soapAction="http://tempuri.org/IService1/getSequenciaDose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:12786/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

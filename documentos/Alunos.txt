@@ -1,0 +1,18 @@
+// nao pode repetir a dose da vacina na msm vacinacao	
+
+
+Error	1		c:\projeto\petweb\frontend\webservice.cs	20	9	FrontEnd
+
+
+
+  
+            //           Fachada f = new Fachada();
+//            List<Backend.Basicas.Vacinacao> vaci = f.listarVacinacaoForAnimal(1);
+
+   /* foreach (Backend.Basicas.Vacinacao v in vaci)
+            {
+                foreach (DoseVacina dv in v.LDoseVacina) {
+                    MessageBox.Show(dv.Vacina.Nome);
+                }
+ 
+            }*/

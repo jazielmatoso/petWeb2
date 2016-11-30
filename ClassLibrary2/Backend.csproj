@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B0677E7-9C51-4A39-B10A-8ADCA87236C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Backend</RootNamespace>
+    <AssemblyName>Backend</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basicas\Animal.cs" />
+    <Compile Include="Basicas\Cliente.cs" />
+    <Compile Include="Basicas\Doenca.cs" />
+    <Compile Include="Basicas\Dose.cs" />
+    <Compile Include="Basicas\DoseVacina.cs" />
+    <Compile Include="Basicas\Especie.cs" />
+    <Compile Include="Basicas\Medida.cs" />
+    <Compile Include="Basicas\Periodicidade.cs" />
+    <Compile Include="Basicas\Permissao.cs" />
+    <Compile Include="Basicas\Usuario.cs" />
+    <Compile Include="Basicas\Vacina.cs" />
+    <Compile Include="Basicas\Vacinacao.cs" />
+    <Compile Include="Basicas\Veterinario.cs" />
+    <Compile Include="Dados\AnimalDaoImp.cs" />
+    <Compile Include="Dados\DoseDao.cs" />
+    <Compile Include="Dados\DoseDaoImp.cs" />
+    <Compile Include="Dados\EspecieDaoImp.cs" />
+    <Compile Include="Dados\VacinacaoDao.cs" />
+    <Compile Include="Dados\VacinacaoDaoImp.cs" />
+    <Compile Include="Dados\VeterinarioDaoImp.cs" />
+    <Compile Include="Erro\GeralException.cs" />
+    <Compile Include="Erro\ValidacaoException.cs" />
+    <Compile Include="Fachada.cs" />
+    <Compile Include="Negocio\AnimalController.cs" />
+    <Compile Include="Negocio\DoseController.cs" />
+    <Compile Include="Negocio\EspecieController.cs" />
+    <Compile Include="Negocio\VacinacaoController.cs" />
+    <Compile Include="Dados\ClienteDao.cs" />
+    <Compile Include="Dados\ClienteDaoImp.cs" />
+    <Compile Include="Dados\EspecieDao.cs" />
+    <Compile Include="Negocio\ClienteController.cs" />
+    <Compile Include="Dados\VacinaDao.cs" />
+    <Compile Include="Dados\VacinaDaoImp.cs" />
+    <Compile Include="Negocio\VacinaController.cs" />
+    <Compile Include="Negocio\VeterinarioController.cs" />
+    <Compile Include="Util\Conexao.cs" />
+    <Compile Include="Erro\ConexaoException.cs" />
+    <Compile Include="Erro\DaoException.cs" />
+    <Compile Include="Dados\UsuarioDao.cs" />
+    <Compile Include="Dados\UsuarioDaoImp.cs" />
+    <Compile Include="Negocio\UsuarioController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Util\ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="File\Medidas.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

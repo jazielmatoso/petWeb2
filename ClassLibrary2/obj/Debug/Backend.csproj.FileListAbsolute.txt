@@ -1,0 +1,4 @@
+C:\projeto\petWeb\ClassLibrary2\bin\Debug\Backend.dll
+C:\projeto\petWeb\ClassLibrary2\bin\Debug\Backend.pdb
+C:\projeto\petWeb\ClassLibrary2\obj\Debug\Backend.dll
+C:\projeto\petWeb\ClassLibrary2\obj\Debug\Backend.pdb

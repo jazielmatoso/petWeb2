@@ -1,0 +1,8 @@
+C:\projeto\petWeb\WcfService1\bin\WcfService1.dll.config
+C:\projeto\petWeb\WcfService1\bin\WcfService1.dll
+C:\projeto\petWeb\WcfService1\bin\WcfService1.pdb
+C:\projeto\petWeb\WcfService1\bin\Backend.dll
+C:\projeto\petWeb\WcfService1\bin\Backend.pdb
+C:\projeto\petWeb\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache
+C:\projeto\petWeb\WcfService1\obj\Debug\WcfService1.dll
+C:\projeto\petWeb\WcfService1\obj\Debug\WcfService1.pdb

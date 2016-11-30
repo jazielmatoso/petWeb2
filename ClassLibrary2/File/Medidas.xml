@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<medidas>
+  <medida>
+    <nome>Quilolitro</nome>
+    <abreviatura>Kl</abreviatura>
+  </medida>
+  <medida>
+    <nome>Hectolitro</nome>
+    <abreviatura>Hl</abreviatura>
+  </medida>
+  <medida>
+    <nome>Decalitro</nome>
+    <abreviatura>Dal</abreviatura>
+  </medida>
+  <medida>
+    <nome>Litro</nome>
+    <abreviatura>L</abreviatura>
+  </medida>
+  <medida>
+    <nome>Decilitro</nome>
+    <abreviatura>Dl</abreviatura>
+  </medida>
+   <medida>
+    <nome>Centilitro</nome>
+    <abreviatura>Cl</abreviatura>
+  </medida>
+   <medida>
+    <nome>Mililitro</nome>
+    <abreviatura>Ml</abreviatura>
+  </medida>
+</medidas>

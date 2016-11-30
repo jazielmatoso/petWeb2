@@ -1,0 +1,16 @@
+C:\projeto\petWeb\FrontEnd\bin\Debug\FrontEnd.exe.config
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.AlterarUsuarioView.resources
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.CadastrarClienteView.resources
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.CadastrarEspecieView.resources
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.Form1.resources
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.Properties.Resources.resources
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.Vacinacao.VacinacaoView.resources
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.VacinaView.resources
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.csproj.GenerateResource.Cache
+C:\projeto\petWeb\FrontEnd\bin\Debug\FrontEnd.exe
+C:\projeto\petWeb\FrontEnd\bin\Debug\FrontEnd.pdb
+C:\projeto\petWeb\FrontEnd\bin\Debug\Backend.dll
+C:\projeto\petWeb\FrontEnd\bin\Debug\Backend.pdb
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.exe
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.pdb
+C:\projeto\petWeb\FrontEnd\obj\Debug\FrontEnd.csprojResolveAssemblyReference.cache
